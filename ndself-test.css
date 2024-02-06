@@ -1,0 +1,179 @@
+/* Toolbar */
+
+.navbar-inverse {
+    background-color: red !important; /* #005E7D */
+    height: 100px;
+    border: 0px !important;
+}
+
+.navbar-nav>li {
+	border-right: 2px solid;
+	border-color: #005E7D;
+}
+
+.navbar-nav>li>a {
+	color: #FFF !important;
+}
+
+.navbar-right {
+	background-color: #98ab2a;
+}
+
+
+.dropdown-toggle {
+	background-color: #98ab2a !important;	
+}
+
+@media (max-width: 767px) {
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    	color: #FFF !important;
+	}
+	#SelfToolbar .navbar-header, #toolbar .navbar-header {
+		float:none !important;
+	}
+	.visible-xs {
+		margin-top:80px !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-nav.navbar-right {
+    	margin-right: -15px;
+    	margin-top:0px;
+	}
+	#SelfToolbar .navbar-header, #toolbar .navbar-header {
+		float: left !important;
+	}
+}
+
+#navigation div.visible-xs ul {
+	background-color: darkgrey !important;
+}
+
+.navbar-header {
+	min-height: 100px;
+}
+
+
+#toolbar {
+	min-height: 100px;
+}
+/* Header */
+
+#navigation {
+	background-color: #f2f2f2 !important;
+	border-top: 12px solid #98ab2a !important;
+}
+
+#navigation .row {
+	margin-top: 20px !important;
+}
+
+/* Buttons */
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background-color: #98ab2a !important;
+	border-color: #98ab2a !important;
+}
+
+.btn-primary {
+	background-color: #005E7D !important;
+	border-color: #005E7D;
+}
+
+.btn.active .caret {
+	border-top-color: #98ab2a !important;
+}
+
+/* Self content */
+
+#self-content {
+	background-color: #f2f2f2 !important;	
+	border-bottom: 12px solid #98ab2a !important;
+}
+
+/* Footer */
+
+.footContainer {
+	background-color: #005E7D !important;
+	border-top: 0px !important;
+	color: #FFF !important;
+	font-size: 16px !important;
+}
+
+.footContainer a {
+	color: #FFF !important;
+}
+/*.footContainer a , a:hover{
+	color: #FFF !important;
+}*/
+
+/* App content */
+
+#app-content a:hover {
+	color:#428bca !important;
+}
+
+/*Main */
+
+#main .row {
+	background-color: #FFF !important;
+}
+
+.landing-item{margin:1em 0;padding:1em 0;height:150px;border-radius:6px; font-size:16px; border:1px solid; padding:10px;}
+
+.landing-item:hover{background-color:#f2f2f2}
+
+.landing-item .fa{float:left;padding:.4em;font-size:2.2em;color:#888}
+
+.landing-item h2{color:#222;font-weight:700;font-size:97%}
+.landing-item h3{color:#222;font-weight:700;font-size:97%}
+.landing-text {display:block;font-size:80%}
+
+.landing-item a:hover{text-decoration:none}
+
+.footContainer a , a:hover{
+	/*color: #FFF !important;*/
+}
+
+/*#app-content a:hover {
+	/*color: #FFF !important;*/
+	/*color: #555 !important;
+}*/
+
+.footer-links a:hover {
+	/*color: #FFF !important;*/
+	color: #555 !important;
+}
+
+.staticText a:hover {
+	/*color: #FFF !important;*/
+	color: #555 !important;
+}
+
+.visuallyhidden{
+	border:0;
+	clip:rect(0 0 0 0);
+	height:1px;
+	margin:-1px;
+	overflow:hidden;
+	padding:0;
+	position:absolute;
+	width:1px
+}
+
+.govuk-list {
+	list-style: none;	
+	
+}
+
+.govuk-list-landing-item h3 {color:#222;font-weight:700;font-size:97%}
+.govuk-list-landing-text {display:block;font-size:80%}
+.govuk-list-landing-link a , a:hover{
+	text-decoration:underline;
+	/*color: #255783 !important;*/
+}
+
+/* Hide forms */
+
+a[data-formname="Tell us how we can improve this page"] {display:none; height:0px; width:0px; !important}/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
