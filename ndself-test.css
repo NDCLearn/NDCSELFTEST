@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
 /* GRANICUS MY.NORTHDEVON CSS UPGRADE PROJECT
 
 
@@ -20,13 +22,10 @@ NOTES and next TO DO:
 
 
 
-/* NEW FONT CODE */
+/* FONTS */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
-
-body,
-html {
+body, html {
 	font-family: 'Source Sans Pro', sans-serif !important;
 	font-weight: 400;
 	font-size: 1rem !important;
@@ -34,6 +33,16 @@ html {
 
 h1 {font-weight: 700!important;
     line-height: 1.5!important}
+
+/* END OF FONTS */
+
+/* NAV BAR COLORS */
+
+.navbar-inverse {
+    background-color: red !important; /* #005E7D */
+    border: none!important;
+}
+
 
 
 /* TEXT IN GREY BOX BELOW H1 */
@@ -140,6 +149,9 @@ a:hover {
 }
 
 a:visited {color: var(--color-link);
+}
+
+.navbar a:visited {color: white!important;
 }
 
 a:not([class*="toolbar"]):focus {
