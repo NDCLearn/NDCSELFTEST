@@ -1,7 +1,42 @@
+/* NEW STYLING IN PROGRESS
+
+NOTES:
+.GOV-list is clashing
+Need to find the font styling css */
+
+body {
+    font-family: "Source Sans Pro"!important, "Helvetica Neue", arial, sans-serif!important;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+line-height: 1.5;
+}
+
+ 
+
+
+h3 {
+	font-size: 27px;
+	
+}
+
+.list-unstyled {
+	padding:40px 0px;
+	list-style:none
+}
+
+
+
+
+/* END OF COMMENT */
+
+
+
 /* Toolbar */
 
 .navbar-inverse {
-    background-color: blue !important; /* #005E7D */
+    background-color: #005e7d !important;
     height: 100px;
     border: 0px !important;
 }
@@ -21,7 +56,7 @@
 
 
 .dropdown-toggle {
-	background-color: #98ab2a !important;	
+	background-color: #005E7D !important;	
 }
 
 @media (max-width: 767px) {
@@ -72,8 +107,8 @@
 /* Buttons */
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-	background-color: #98ab2a !important;
-	border-color: #98ab2a !important;
+	background-color: #98ab2a!important;
+	border-color: #98ab2a!important;
 }
 
 .btn-primary {
@@ -95,7 +130,7 @@
 /* Footer */
 
 .footContainer {
-	background-color: #005E7D !important;
+	background-color: #01738f !important;
 	border-top: 0px !important;
 	color: #FFF !important;
 	font-size: 16px !important;
@@ -162,17 +197,28 @@
 	width:1px
 }
 
+
+/* edit 16/01 - .govuk styling clashes with overall style */
+
 .govuk-list {
+	list-style: none;	}
+
+/*
+.govuk-list {
+	font-size: 16px;
 	list-style: none;	
-	
 }
+
 
 .govuk-list-landing-item h3 {color:#222;font-weight:700;font-size:97%}
 .govuk-list-landing-text {display:block;font-size:80%}
 .govuk-list-landing-link a , a:hover{
 	text-decoration:underline;
-	/*color: #255783 !important;*/
+	color: #255783 !important;
 }
+
+*/
+
 
 /* Hide forms */
 
