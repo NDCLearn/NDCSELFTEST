@@ -132,11 +132,14 @@ main {
 
 a {
   transition: var(--transition-time);
-  color: var(--color-link);
+ /* color: var(--color-link); incorrect color for some reason? 06/02 */
 }
 
 a:hover {
   text-decoration-thickness: max(3px, 0.1875rem, 0.12em);
+}
+
+a:visited {color: var(--color-link);
 }
 
 a:not([class*="toolbar"]):focus {
