@@ -1,42 +1,98 @@
-/* NEW STYLING IN PROGRESS
+/* GRANICUS MY.NORTHDEVON CSS UPGRADE PROJECT
 
-NOTES:
-.GOV-list is clashing
-Need to find the font styling css */
 
-body {
-    font-family: "Source Sans Pro"!important, "Helvetica Neue", arial, sans-serif!important;
+THIS IS A WORK IN PROGRESS CSS FILE AS OF 23/01/24
+
+*/
+
+/*  fonts added as of 23/01/24
+
+NOTES and next TO DO:
+
+- Fonts have been added and reflect our current site but not finished
+	However they are not reflecting the same font weight as our headers and other text and font styling on our live site which we need to check and add here below
+
+- Spacing of text and such is not the same as our live
+
+- font weight = boldness */
+
+
+
+
+
+/* NEW FONT CODE */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
+body,
+html {
+	font-family: 'Source Sans Pro', sans-serif !important;
+	font-weight: 400;
+	font-size: 1rem !important;
+}
+
+h1 {font-weight: 700!important;
+    line-height: 1.5!important}
+
+
+/* TEXT IN GREY BOX BELOW H1 */
+
+p.lead {
+	font-weight:500!important
+}
+
+
+
+
+
+/* LIST OF LANDING PAGE LINKS */
+
+a.govuk-list-landing-link {
+    font-size: 21px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+p.govuk-list-landing-text {
     font-size: 16px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
-line-height: 1.5;
 }
 
- 
+/* END OF LIST OF LANDING PAGE LINKS */
 
 
-h3 {
-	font-size: 27px;
-	
+
+/* FOOTER AREA */
+
+/* FOOTER BORDER LINE */
+
+section#main-content {
+    margin-bottom: auto!important;
 }
 
-.list-unstyled {
-	padding:40px 0px;
-	list-style:none
+/* FOOTER BORDER PADDING ABOVE AND BELOW SOCIAL LINKS */
+
+div#footer {
+    padding:40px 0px
 }
 
+/* 
 
 
 
-/* END OF COMMENT */
 
+
+
+ORIGINAL "nd self css" code below
+
+
+______________________________________ */
 
 
 /* Toolbar */
 
 .navbar-inverse {
-    background-color: #005e7d !important;
+    background-color: red !important; /* #005E7D */
     height: 100px;
     border: 0px !important;
 }
@@ -56,7 +112,7 @@ h3 {
 
 
 .dropdown-toggle {
-	background-color: #005E7D !important;	
+	background-color: #98ab2a !important;	
 }
 
 @media (max-width: 767px) {
@@ -107,8 +163,8 @@ h3 {
 /* Buttons */
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-	background-color: #98ab2a!important;
-	border-color: #98ab2a!important;
+	background-color: #98ab2a !important;
+	border-color: #98ab2a !important;
 }
 
 .btn-primary {
@@ -130,7 +186,7 @@ h3 {
 /* Footer */
 
 .footContainer {
-	background-color: #01738f !important;
+	background-color: #005E7D !important;
 	border-top: 0px !important;
 	color: #FFF !important;
 	font-size: 16px !important;
@@ -197,29 +253,19 @@ h3 {
 	width:1px
 }
 
-
-/* edit 16/01 - .govuk styling clashes with overall style */
-
 .govuk-list {
-	list-style: none;	}
-
-/*
-.govuk-list {
-	font-size: 16px;
 	list-style: none;	
+	
 }
-
 
 .govuk-list-landing-item h3 {color:#222;font-weight:700;font-size:97%}
 .govuk-list-landing-text {display:block;font-size:80%}
 .govuk-list-landing-link a , a:hover{
 	text-decoration:underline;
-	color: #255783 !important;
+	/*color: #255783 !important;*/
 }
-
-*/
-
 
 /* Hide forms */
 
 a[data-formname="Tell us how we can improve this page"] {display:none; height:0px; width:0px; !important}/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
+
