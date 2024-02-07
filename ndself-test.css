@@ -40,10 +40,8 @@ h1 {font-weight: 700!important;
 
 .navbar-inverse {
     background-color: red !important; /* #005E7D */
-    border: none!important;
+    border-bottom: 5px solid #98ab2a !important;
 }
-
-
 
 /* TEXT IN GREY BOX BELOW H1 */
 
@@ -980,7 +978,8 @@ ______________________________________ */
 
 #navigation {
 	background-color: #f2f2f2 !important;
-	border-top: 12px solid #98ab2a !important;
+	/* border-top: 12px solid #98ab2a !important; */
+	border: none!important;
 }
 
 #navigation .row {
